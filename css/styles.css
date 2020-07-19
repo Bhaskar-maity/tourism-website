@@ -55,8 +55,10 @@ p {
 /* image */
 .title-image {
     width: 80%;
-    position: relative;
-    margin-bottom: -150px;
+    position: absolute;
+    margin-bottom: -180px;
+    
+    
 }
 
 /*------------------------------- section  nav bar */
@@ -70,12 +72,15 @@ p {
 }
 
 /*-------------------------------- Feature parts */
-
+#feature{
+    position: relative;
+}
 .feature-title {
     font-size: 1.5rem;
 }
 .feature-box {
     padding: 4.5%;
+    color: #fff;
 }
 .icon{
     color: #4ceaff;
