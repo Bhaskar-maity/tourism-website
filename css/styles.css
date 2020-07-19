@@ -25,7 +25,7 @@ p {
 
 
 
-/* Navigation Bar */
+/*------------------------- Navigation Bar */
 .navbar {
     padding: 2.5rem 4.5rem 3.5rem 4.5rem !important;
 }
@@ -59,12 +59,28 @@ p {
     margin-bottom: -150px;
 }
 
-/* section  nav bar */
+/*------------------------------- section  nav bar */
 .title-section {
     background-color: #4ceaff;
     color: #fff;
 }
 .green-section {
-    padding: 150px 0 100px 0;
+    padding: 150px 30px 0px 150px;
     background-color: rgb(8, 95, 19);
+}
+
+/*-------------------------------- Feature parts */
+
+.feature-title {
+    font-size: 1.5rem;
+}
+.feature-box {
+    padding: 4.5%;
+}
+.icon{
+    color: #4ceaff;
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: #0066ff;
 }
