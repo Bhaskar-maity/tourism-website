@@ -1,10 +1,10 @@
 body {
     font-family: "Raleway";
-    text-align: center;
+    text-align: center !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway-Bold";
+    font-family: "Montserrat-Bold";
 }
 p {
     color: #8f8f8f;
@@ -55,8 +55,8 @@ p {
 /* image */
 .title-image {
     width: 80%;
-    position: absolute;
-    margin-bottom: -180px;
+    position: relative;
+    margin-bottom: -140px;
     
     
 }
@@ -67,13 +67,18 @@ p {
     color: #fff;
 }
 .green-section {
-    padding: 150px 30px 0px 150px;
+    padding: 150px 150px 0px 150px;
     background-color: rgb(8, 95, 19);
 }
 
 /*-------------------------------- Feature parts */
 #feature{
-    position: relative;
+    position: absolute;
+    display: flexbox;
+    justify-content: center !important;
+    align-items: center;
+    text-align: right;
+    box-sizing: border-box;
 }
 .feature-title {
     font-size: 1.5rem;
@@ -81,6 +86,7 @@ p {
 .feature-box {
     padding: 4.5%;
     color: #fff;
+    
 }
 .icon{
     color: #4ceaff;
