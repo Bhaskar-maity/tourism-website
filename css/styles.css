@@ -65,10 +65,10 @@ p {
 }
 
 /*------------------------------- section  nav bar */
-.title-section {
+.blue-section {
     background-color: #4ceaff;
     color: #fff;
-    text-align: left;
+    /* text-align: left; */
 }
 .green-section {
     padding: 150px 150px 0px 150px;
@@ -86,7 +86,7 @@ p {
     font-weight: 500 !important;
 }
 .feature-title {
-    font-size: 1.5rem;
+    font-size: 3.5rem;
 }
 .feature-box {
     padding: 4.5%;
@@ -99,4 +99,21 @@ p {
 }
 .icon:hover {
     color: #0066ff;
+}
+
+/* -----------testimonials */
+#testimnial{
+    justify-content: center;
+    background-color: lawngreen;
+}
+.testimonial-image {
+    width: 10% ;
+    border-radius: 100%;
+    margin: 10px;
+}
+.testimonial-text {
+    margin-top: 30px;
+    font-size: 3rem;
+    line-height: 1.5;
+    position: relative;
 }
