@@ -5,16 +5,18 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat-Bold";
+    /* font-size: 10px !important; */
 }
 p {
     color: #8f8f8f;
+    font-size: 1.8rem !important;
 }
 
 /* Headings */
 
 .big-heading {
     font-family: "Montserrat-Black";
-    font-size: 3.5rem;
+    font-size: 5.5rem;
     line-height: 1.5;
 }
 
@@ -27,25 +29,26 @@ p {
 
 /*------------------------- Navigation Bar */
 .navbar {
-    padding: 2.5rem 4.5rem 3.5rem 4.5rem !important;
+    padding: 4.5rem 4.5rem 3.5rem 4.5rem !important;
 }
 
 .navbar-brand {
     font-family: "Ubuntu";
-    font-size: 2.5rem !important;
+    font-size: 4rem !important;
     font-weight: bold !important;
 }
 .nav-item {
     padding: 0 18px !important;
 }
 .nav-link {
-    font-size: 1.2rem;
+    font-size: 1.9rem;
     font-family: "Montserrat-Light";
 }
 
 /* buttons */
 .download-button {
     margin: 5% 3% 5% 0;
+    font-size: 1.4rem !important;
 }
 
 .title-bottom{
@@ -65,6 +68,7 @@ p {
 .title-section {
     background-color: #4ceaff;
     color: #fff;
+    text-align: left;
 }
 .green-section {
     padding: 150px 150px 0px 150px;
@@ -74,11 +78,12 @@ p {
 /*-------------------------------- Feature parts */
 #feature{
     position: absolute;
-    display: flexbox;
+    /* display: flexbox;
     justify-content: center !important;
     align-items: center;
     text-align: right;
-    box-sizing: border-box;
+    box-sizing: border-box; */
+    font-weight: 500 !important;
 }
 .feature-title {
     font-size: 1.5rem;
