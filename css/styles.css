@@ -80,7 +80,7 @@ p {
 
 /*-------------------------------- Feature parts */
 #feature{
-    position: absolute;
+    position: relative;
     /* display: flexbox;
     justify-content: center !important;
     align-items: center;
@@ -91,9 +91,19 @@ p {
 .feature-title {
     font-size: 3.5rem;
 }
+.row{
+    flex-wrap: nowrap !important;
+}
 .feature-box {
     padding: 4.5%;
+    position: relative !important;
     color: #fff;
+    background-color: #00796B
+    ;
+    /* margin-left:4px; */
+    border-radius: 10%;
+    margin: 1rem;
+
     
 }
 .icon{
