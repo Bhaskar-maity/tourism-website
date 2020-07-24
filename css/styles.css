@@ -66,13 +66,14 @@ p {
 
 /*------------------------------- section  nav bar */
 .blue-section {
-    background-color: #4ceaff;
+    background-color: #00BCD4
+    ;
     color: #fff;
     /* text-align: left; */
 }
 .green-section {
     padding: 150px 150px 0px 150px;
-    background-color: rgb(8, 95, 19);
+    background-color:#009688;
 }
 
 /*-------------------------------- Feature parts */
