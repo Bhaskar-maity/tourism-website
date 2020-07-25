@@ -63,9 +63,7 @@ p {
     transition: 0.7s;  
 }
 .title-image:hover{
-    transform: translateY(-30px);
-    /* transform: translateX(10px); */
-    
+    transform: translateY(-30px);    
 }
 /*------------------------------- section  nav bar */
 .blue-section {
