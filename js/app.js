@@ -1,7 +1,7 @@
 
 window.onload = function(){
     function emailAlert(){
-        alert("Hi , this is my Email ID  maitybhaskar2015@gmail.com");
+        alert("Hi , I am Bhaskar \n\nEmail ID - maitybhaskar2015@gmail.com");
 
     }
 
